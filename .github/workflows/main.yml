@@ -34,7 +34,7 @@ jobs:
       - run: yarn build
   
   deploy:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Deploy job is not implemented yet."
     
