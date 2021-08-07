@@ -53,7 +53,8 @@ const App = ({ Component, reduxStore }) => {
             "Alors prépare tout ton stuff et impose-toi dans l'arène !"
           }
         />
-        <meta name="google-site-verification" content={googleVerification()} />
+        <meta name="google-site-verification" 
+content={googleVerification()} />
 
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
