@@ -36,7 +36,7 @@ const App = ({ Component, reduxStore }) => {
     }
   }
 
-  return (
+  return 
     <div>
       <Head>
         <title>UTT Arena 2020 - 27, 28 et 29 novembre 2020</title>
@@ -53,8 +53,7 @@ const App = ({ Component, reduxStore }) => {
             "Alors prépare tout ton stuff et impose-toi dans l'arène !"
           }
         />
-        <meta name="google-site-verification" 
-content={googleVerification()} />
+        <meta name="google-site-verification" content={googleVerification()} />
 
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
